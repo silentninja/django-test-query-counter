@@ -31,5 +31,5 @@ class RequestQueryCountConfig(AppConfig):
 
     def ready(self):
         if self.enabled():
-            from test_query_counter.manager import RequestQueryCountManager
-            RequestQueryCountManager.set_up()
+            from test_query_counter.manager import HttpInteractionManager
+            HttpInteractionManager.set_up()

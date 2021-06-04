@@ -30,7 +30,6 @@ TEST_QUERY_COUNTER = {
 ROOT_URLCONF = 'tests.urls'
 
 INSTALLED_APPS = [
-    'django_jenkins',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sites',
